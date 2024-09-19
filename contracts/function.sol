@@ -12,8 +12,9 @@ contract MyFunction{
     }
 
     //addPure can not read or wirte num
-    function addPure(uint256 new_num) public pure {
+    function addPure(uint256 new_num) public pure returns (uint256){
         new_num += 1;
+        return new_num;
     }
 
     //addView can read read num only
