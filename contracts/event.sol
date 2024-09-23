@@ -11,5 +11,8 @@ contract Event{
         _balances[from] -= token;
         _balances[to] += token;
         emit Transfer(from, to, token);
+        revert TransferError();
     }
+
+    error TransferError();
 }
