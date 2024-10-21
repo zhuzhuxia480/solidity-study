@@ -1,3 +1,6 @@
 ./contract/artifacts
 ./idea
 ./swarm
+/swarm
+/.idea
+/contracts/artifacts
