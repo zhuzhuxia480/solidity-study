@@ -5,3 +5,5 @@
 /.idea
 /contracts/artifacts
 /.states
+/.deps
+node_modules
